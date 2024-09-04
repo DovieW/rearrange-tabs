@@ -8,6 +8,14 @@
   "background": {
     "service_worker": "rearrange.js"
   },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "storage",
+    "tabGroups"
+  ],
   "commands": {
     "rtl": {
       "suggested_key": {
